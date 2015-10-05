@@ -115,6 +115,7 @@ public class Billetautomat {
 	public void nulstil() {
 		if (montørtilstand) {
 			antalBilletterSolgt = 0;
+			billetpris = 10;
 		} else {
 			System.out.println("Afvist - log ind først");
 		}

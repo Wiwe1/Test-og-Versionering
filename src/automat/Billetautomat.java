@@ -68,6 +68,11 @@ public class Billetautomat {
 	public int returpenge() {
 		int returbeløb = balance;
 		balance = 0;
+		if(balance <0)
+		{
+			System.out.println("Du for nada retur");
+		}
+		else
 		System.out.println("Du får "+returbeløb+" kr retur");
 		return returbeløb;
 	}

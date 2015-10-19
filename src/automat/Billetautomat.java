@@ -82,7 +82,7 @@ public class Billetautomat {
 		if ("1234".equals(adgangskode)) {
 			montørtilstand = true;
 			System.out.println("Montørtilstand aktiveret");
-			System.out.println("Du kan nu angive billetpris");
+			System.out.println("Du kan nu angive billetprisx");
 		} else {
 			montørtilstand = false;
 			System.out.println("Montørtilstand deaktiveret");

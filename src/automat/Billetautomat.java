@@ -115,8 +115,10 @@ public class Billetautomat {
 			{
 				this.billetpris = billetpris;
 			}
-			else
-				System.out.println("Du er en tard");
+			else{
+				System.out.println("Billet prisen kan ikke være negativ");
+			}
+				
 		}else{
 			System.out.println("Afvist - log ind først");
 		}
